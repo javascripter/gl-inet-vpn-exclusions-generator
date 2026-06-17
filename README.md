@@ -4,7 +4,7 @@ A simple web tool to generate a domain and IP exclusion list for your GL.iNet ro
 
 This allows you to bypass the VPN for selected streaming platforms, social networks, games, or custom websites and IP addresses of your choice.
 
-![GL.iNet VPN Exclusions Generator Screenshot](./screenshot.png)
+<img src="./screenshot.png" width="640" alt="GL.iNet VPN Exclusions Generator Screenshot" />
 
 ## How to Use
 
