@@ -1,8 +1,8 @@
 # GL.iNet VPN Exclusions Generator
 
-A simple web tool to generate a domain and IP exclusion list for your GL.iNet router (running firmware v4.7+). 
+A simple web tool that provides an automatically updating domain and IP exclusion subscription for your GL.iNet router (running firmware v4.7+).
 
-This allows you to bypass the VPN for selected streaming platforms, social networks, games, or custom websites and IP addresses of your choice.
+The generated link dynamically fetches the latest routing rules (synced with AdGuard), allowing you to bypass the VPN for selected streaming platforms, social networks, games, or custom websites and IP addresses of your choice.
 
 <img src="./screenshot.png" width="640" alt="GL.iNet VPN Exclusions Generator Screenshot" />
 
