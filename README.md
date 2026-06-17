@@ -27,22 +27,6 @@ This allows you to bypass the VPN for selected streaming platforms, social netwo
 7. Click **Apply** (or **Detect**).
 8. Ensure the **Primary Tunnel** toggle is switched **On**.
 
----
-
-## Troubleshooting & Tips
-
-### 1. The VPN is still being used on my devices
-For domain-based VPN policies to work, your router must handle the DNS requests directly:
-* **Turn off Private DNS / DoH**: Make sure features like "Private DNS" (Android), "Limit IP Address Tracking" (iOS/macOS), or "DNS over HTTPS" (browsers) are disabled on your client devices.
-* **Use Router DNS**: Ensure your client devices use the router's LAN IP address as their primary DNS server.
-* **Flush DNS Cache**: If rules don't apply immediately, clear your device's DNS cache (run `ipconfig /flushdns` in Windows Command Prompt, or restart your device).
-
-### 2. Formatting custom entries
-* **Root domains** (e.g., `example.com`) will automatically match the domain and all of its subdomains (like `www.example.com`).
-* If you want to bypass the VPN for a **specific subdomain** only, enter the full subdomain (e.g., `login.example.com`).
-* You can add raw IPv4 addresses (e.g., `1.2.3.4`) or CIDR blocks (e.g., `192.168.1.0/24`).
-
----
 
 ## Local Development
 
