@@ -43,12 +43,3 @@ bun run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
----
-
-## Deployment
-
-Deploy this tool to **Vercel** in seconds:
-
-1. Push this repository to your GitHub profile.
-2. Import the project into your Vercel Dashboard.
-3. Deploy! The `/api/exclusions` subscription URL is ready to use on your router.
